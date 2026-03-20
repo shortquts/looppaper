@@ -1,24 +1,23 @@
 <div align="center">
-  <!-- You can change this to a specific icon later if you want -->
-  <img src="https://raw.githubusercontent.com/WalkxCode/dashboard-icons/main/svg/apple-shortcuts.svg" width="100" alt="Shortcuts Icon">
+  <img src="https://raw.githubusercontent.com/shortquts/assets/main/icons/apple-shortcuts.svg" width="100" alt="Shortcuts Icon">
 
-  <h1>[Shortcut Name]</h1>
-  <p><b>[A single-sentence description. E.g., Resize images instantly with one tap.]</b></p>
+  <h1>LoopPaper</h1>
+  <p><b>Automatically loop and change your device's wallpaper at custom intervals from your favorite photo album.</b></p>
 
-  <!-- Dynamic Badges (They will auto-update based on the current repo) -->
-  <a href="https://github.com/Shortquts/[RepoName]/releases/latest"><img src="https://img.shields.io/github/v/release/Shortquts/[RepoName]?style=for-the-badge&color=007AFF" alt="Version"></a>
-  <a href="https://github.com/Shortquts/[RepoName]/releases"><img src="https://img.shields.io/github/downloads/Shortquts/[RepoName]/total?style=for-the-badge&color=FF9500" alt="Downloads"></a>
-  <a href="https://github.com/Shortquts/[RepoName]/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Shortquts/[RepoName]?style=for-the-badge&color=34C759" alt="License"></a>
+  <!-- Dynamic Badges -->
+  <a href="https://github.com/shortquts/looppaper/releases/latest"><img src="https://img.shields.io/github/v/release/shortquts/looppaper?style=for-the-badge&color=007AFF" alt="Version"></a>
+  <a href="https://github.com/shortquts/looppaper/releases"><img src="https://img.shields.io/github/downloads/shortquts/looppaper/total?style=for-the-badge&color=FF9500" alt="Downloads"></a>
+  <a href="https://github.com/shortquts/looppaper/blob/main/LICENSE"><img src="https://img.shields.io/github/license/shortquts/looppaper?style=for-the-badge&color=34C759" alt="License"></a>
   
   <br><br>
 
-  <!-- CENTRALIZED DOWNLOAD BUTTONS (Pulled from Shortquts/assets) -->
-  <a href="[ICLOUD_LINK]">
-    <img src="https://raw.githubusercontent.com/Shortquts/assets/main/buttons/download-icloud.png" width="250" alt="Download via iCloud">
+  <!-- CENTRALIZED DOWNLOAD BUTTONS -->
+  <a href="https://www.icloud.com/shortcuts/91733631eec6455d819e6632ec192a5f">
+    <img src="https://raw.githubusercontent.com/shortquts/assets/main/buttons/download-icloud.png" width="250" alt="Download via iCloud">
   </a>
   <br>
-  <a href="https://github.com/Shortquts/[RepoName]/releases/latest">
-    <img src="https://raw.githubusercontent.com/Shortquts/assets/main/buttons/download-manual.png" width="250" alt="Download Manually">
+  <a href="https://github.com/shortquts/looppaper/releases/latest">
+    <img src="https://raw.githubusercontent.com/shortquts/assets/main/buttons/manual.png" width="250" alt="Download Manually">
   </a>
 </div>
 
@@ -26,40 +25,45 @@
 
 ## ⚡️ Overview
 
-**[Shortcut Name]** is a powerful, lightweight Apple Shortcut designed to [solve this specific problem]. It runs completely on-device, ensuring your privacy while delivering blazing-fast results.
+**LoopPaper** is an advanced Apple Shortcut that turns your device's screen into a dynamic, ever-changing gallery. It securely pulls random photos from a specified album and updates your wallpaper automatically in the background, exactly how you like it.
 
-* **Fast & Secure:** No third-party servers. 100% on-device processing.
-* **Auto-Updates:** Built-in mechanism to check for updates via GitHub.
-* **Seamless Integration:** Works perfectly with iOS, iPadOS, and macOS.
+### ✨ Key Features
+* 🔄 **Auto-Looping:** Set a custom interval (e.g., every 30 seconds) to continuously change your wallpaper automatically.
+* 🖼 **Custom Albums:** Fetch high-quality photos directly from any specific album (like "My Wallpapers").
+* 💧 **Readability Blur:** Automatically apply a blur effect to the Home Screen wallpaper to make your app icons and widgets stand out.
+* 🎯 **Smart Subject Focus:** Intelligently crops the photo to focus on people or subjects, ensuring the best fit for your screen.
+* ⚙️ **Dictionary-Based Config:** Easily tweak settings directly from the top of the shortcut without breaking the core logic.
 
 ## 📥 Getting Started
 
 ### Method 1: Install via iCloud (Recommended)
 1. Tap the **Download via iCloud** button above.
 2. The Shortcuts app will launch automatically.
-3. Tap **Add Shortcut**.
-4. *(Optional)* Configure the setup steps if prompted.
+3. Tap **Add Shortcut** and answer the Setup Prompts.
 
 ### Method 2: Manual Installation
-If you prefer to install via the raw `.shortcut` file:
 1. Tap the **Download Manually** button to visit the Releases page.
-2. Download the latest `.shortcut` asset.
-3. Open the file to import it into the Shortcuts app.
+2. Download the latest `.shortcut` file and open it to import.
 
-## ⚙️ Configuration
+## ⚙️ Configuration & Setup
 
-This shortcut is highly customizable. Upon installation, you will be prompted to configure a few initial settings. 
+Upon installation, LoopPaper will ask you a few questions to tailor the experience to your needs:
 
-If you want to change these settings later:
-1. Open the **Shortcuts** app.
-2. Tap the `•••` icon on the **[Shortcut Name]** shortcut.
-3. Modify the values in the **Dictionary** (Config) action at the very top of the workflow.
+1. **Loop Settings (`is_active` & `interval_seconds`):** Set to `True` to enable the auto-change loop, and enter the delay between changes in seconds.
+2. **Photo Album Name (`album_name`):** Enter the exact name of your preferred photo album (e.g., *My Wallpapers*).
+3. **Wallpaper Location:** Choose whether to update the Lock Screen, Home Screen, or both.
+4. **Readability Blur:** Toggle whether you want the Home Screen to be blurred.
+5. **Smart Focus:** Toggle whether the system should intelligently crop the subject.
+
+> **💡 Pro Tip:** To keep the shortcut from pausing on its own in the background, try creating an automation that triggers whenever a specific Focus is turned on.
 
 ## 📸 Preview
 
-| Setup | In Action | Result |
+| Setup Variables | Setup Prompts | In Action |
 |:---:|:---:|:---:|
-| <img src="https://placehold.co/250x500/png?text=Setup+Screenshot" width="220" alt="Setup"> | <img src="https://placehold.co/250x500/png?text=Action+Screenshot" width="220" alt="Action"> | <img src="https://placehold.co/250x500/png?text=Result+Screenshot" width="220" alt="Result"> |
+| <img src="https://placehold.co/250x500/1e1e1e/white?text=Dictionary+Config" width="220" alt="Setup"> | <img src="https://placehold.co/250x500/1e1e1e/white?text=Import+Questions" width="220" alt="Action"> | <img src="https://placehold.co/250x500/1e1e1e/white?text=Final+Result" width="220" alt="Result"> |
+
+*(soon)*
 
 ## 🐛 Issues & Support
 
@@ -67,5 +71,5 @@ If you experience any bugs or have a feature request, please [open an issue](../
 
 ---
 <div align="center">
-  <sub>Built with ❤️ by the <b><a href="https://github.com/wd006">wd006</a></b></sub>
+  <sub>Built ❤️ by <b><a href="https://github.com/wd006">wd006</a></b></sub>
 </div>

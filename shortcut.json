@@ -1,7 +1,7 @@
 {
-	  "name": "[Shortcut Name]",
+	  "name": "LoopPaper",
 	    "version": "1.0.0",
 	      "release_notes": "Initial release.",
-	        "icloud_link": "[ICLOUD_LINK]",
-		  "release_url": "https://github.com/Shortquts/[RepoName]/releases/latest"
+	        "icloud_link": "https://www.icloud.com/shortcuts/91733631eec6455d819e6632ec192a5f",
+		  "release_url": "https://github.com/shortquts/looppaper/releases/latest"
 }
