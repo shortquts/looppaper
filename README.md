@@ -17,7 +17,7 @@
   </a>
   <br>
   <a href="https://github.com/shortquts/looppaper/releases/latest">
-    <img src="https://raw.githubusercontent.com/shortquts/assets/main/buttons/manual.png" width="250" alt="Download Manually">
+    <img src="https://raw.githubusercontent.com/shortquts/assets/main/buttons/download-manual.png" width="250" alt="Download Manually">
   </a>
 </div>
 
