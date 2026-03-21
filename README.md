@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/shortquts/assets/main/icons/apple-shortcuts.svg" width="100" alt="Shortcuts Icon">
+  <img src="https://raw.githubusercontent.com/shortquts/assets/main/shortquts.png" width="100" alt="Shortquts Logo">
 
   <h1>LoopPaper</h1>
   <p><b>Automatically loop and change your device's wallpaper at custom intervals from your favorite photo album.</b></p>
